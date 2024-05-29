@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Газпром</title>
+  <link rel="stylesheet" href="styles/index.css">
+</head>
+
+<body class="page">
+
+  <header class="header">
+    <div class="header__container">
+      <div class="header__menu">
+        <img class="header__logo" alt="Логотип" src="images/logo.svg">
+        <h1 class="header__title">Портал управления ИТ услугами</h1>
+        <nav class="header__nav">
+          <p class="header__element">Каталог услуг</p>
+        </nav>
+      </div>
+      <div class="header__user">
+        <img class="header__avatar" alt="Аватар" src="images/Avatar.png">
+        <button class="header__button" type="button"></button>
+      </div>
+    </div>
+  </header>
+
+  <main class="content">
+
+    <div class="container">
+
+      <section class="swiper">
+        <div class="swiper__wrapper">
+          <div class="swiper__slide">
+            <h2 class="swiper__slide-title">Стартовал конкурс на лучшего владельца продукта 2020 года</h2>
+          </div>
+          <div class="swiper__slide">
+            <h2 class="swiper__slide-title">Стартовал конкурс на лучшего владельца продукта 2020 года</h2>
+          </div>
+          <div class="swiper__slide">
+            <h2 class="swiper__slide-title">Стартовал конкурс на лучшего владельца продукта 2020 года</h2>
+          </div>
+        </div>
+        <div class="swiper__pagination"></div>
+        <img class="swiper__button swiper__button-prev" alt="Назад" src="images/Left.svg">
+        <img class="swiper__button swiper__button-next" alt="Вперед" src="images/Right.svg">
+      </section>
+
+      <section class="info">
+        <p class="info__text">В разделе Базовые сервисы добавлена новая услуга Поддержка рабочих мест</p>
+        <p class="info__text">На Портале добавлен раздел Бюджет ДО</p>
+        <p class="info__text">Подведены итоги конкурса лучший КМ 2020 года</p>
+        <p class="info__text info__text-empty"></p>
+        <div class="info__decoration">
+          <div class="info__decoration-ellipse"></div>
+          <p class="info__text info__text-empty"></p>
+        </div>
+      </section>
+
+    </div>
+
+    <aside class="aside">
+
+      <div class="newsline">
+        <h2 class="newsline__title">Мобильная лента</h2>
+        <ul class="newsline__list">
+          <li class="newsline__item">
+            <div class="newsline__item-content">
+              <img class="newsline__item-image" alt="Новость" src="images/Photo1.png">
+              <div class="newsline__item-new">
+                <h3 class="newsline__item-title"><span class="newsline__item-span">04.02 // </span>Название рубрики</h3>
+                <p class="newsline__item-text">Диалоги о цифровой трансформации и ИТ кластере</p>
+              </div>
+            </div>
+          </li>
+          <li class="newsline__item">
+            <div class="newsline__item-content">
+              <img class="newsline__item-image" alt="Новость" src="images/Photo2.png">
+              <div class="newsline__item-new">
+                <h3 class="newsline__item-title"><span class="newsline__item-span">21.01 // </span>Название рубрики</h3>
+                <p class="newsline__item-text">Онлайн дискуссия: цифровое развитие продуктового каталога</p>
+              </div>
+            </div>
+          </li>
+          <li class="newsline__item">
+            <div class="newsline__item-content">
+              <img class="newsline__item-image" alt="Новость" src="images/Photo3.png">
+              <div class="newsline__item-new">
+                <h3 class="newsline__item-title"><span class="newsline__item-span">12.01 // </span>Название рубрики</h3>
+                <p class="newsline__item-text">Запись продуктового баттла Skype for business</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <button class="download" type="button">
+        <img class="download__icon" alt="Кнопка" src="images/IconDown.svg">
+        <span class="download__text">Скачать каталог услуг</span>
+      </button>
+
+    </aside>
+
+  </main>
+
+  <footer class="footer">
+    <p class="footer__info">&copy 2006-2021, ПАО «Газпром нефть»</p>
+  </footer>
+
+  <script src="scripts/swiper-bundle.js"></script>
+  <script src="scripts/index.js"></script>
+</body>
